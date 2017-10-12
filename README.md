@@ -1,5 +1,5 @@
 # 動作に必要なもの
-GNU Grep， bashの動く環境(bush on ubuntu on Windows)
+GNU Grep， bashの動く環境(bush on ubuntu on Windows)  
 bush on ubuntu on Windows　だとすぐに動く．
 ```
 $ git clone https://github.com/SatoshiTanoue/AnalysisCommentsUsingGrep
