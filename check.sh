@@ -3,5 +3,5 @@
 
 PATERNFILE=./pattern.txt
 while read line; do
-    ggrep -n -i -P --color=always "${line}" $1 && echo "'$line'がマッチしました"
+    grep -n -i -P --color=always "${line}" $1 && echo "'$line'がマッチしました"
 done < $PATERNFILE
