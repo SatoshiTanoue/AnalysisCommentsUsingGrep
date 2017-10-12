@@ -1,5 +1,5 @@
 # 動作に必要なもの
-GNU Grep，Windows on Bash
+GNU Grep， bashの動く環境
 
 # grepによる特定のコメントを検出
 
