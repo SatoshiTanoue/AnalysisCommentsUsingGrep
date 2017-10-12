@@ -1,6 +1,10 @@
 # 動作に必要なもの
-GNU Grep， bashの動く環境
-
+GNU Grep， bashの動く環境(bush on ubuntu on Windows)
+bush on ubuntu on Windows　だとすぐに動く．
+```
+git clone https://github.com/SatoshiTanoue/AnalysisCommentsUsingGrep
+cd AnalysisCommentsUsingGrep
+```
 # grepによる特定のコメントを検出
 
 pattern.txtに文字列検出のパターンを記述する．
@@ -28,7 +32,6 @@ $ sh check.sh code_comment_sample.cpp #ファイルパス．
 
 ・空行があると，全てのパターンにマッチしてしまい全てを表示してしまう．  
 ・pattern.txtの文字コードはutf-8になっているため，Shift-Jisに変更する必要があるかも知れない．  
-・環境によっては，GNUバージョンのgrepのコマンド名がgrepになっている可能性があるため，check.shファイルの"ggrep"を"grep"に変更する． もしくは，aliasで指定する．  
 ・pattern.txtのパターンファイルを別のパターンに変更するには，check.shを開いて，パターンファイルの名前をを変更する．  
 ・ファイルによっては，先読みの正規表現が動かないかもしれない．  
 
