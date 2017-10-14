@@ -26,7 +26,7 @@ $ sh check.sh code_comment_sample.cpp #ファイルパス．
 27:    // elseのパターンはなくて大丈夫？
 '？'がマッチしました
 ```
-
+実行結果はresultディレクトリの中に保存されます．
 
 # 注意
 
