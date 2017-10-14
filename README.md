@@ -9,7 +9,7 @@ $ cd AnalysisCommentsUsingGrep
 
 pattern.txtに文字列検出のパターンを記述する．
 
-実行
+単体ファイルに対して実行
 ```
 $ sh 755 check.sh #一度だけ
 $ sh check.sh code_comment_sample.cpp #ファイルパス．
@@ -28,6 +28,12 @@ $ sh check.sh code_comment_sample.cpp #ファイルパス．
 ```
 実行結果はresultディレクトリの中に保存されます．
 
+ディレクトリを指定して実行
+
+```
+$sh multiple_check.sh ../../../testcode #ディレクトリ名
+```
+このとき，ディレクトリ名を../../../testcode/としないでください．
 # 注意
 
 ・空行があると，全てのパターンにマッチしてしまい全てを表示してしまう．  
