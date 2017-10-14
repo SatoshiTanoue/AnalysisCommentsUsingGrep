@@ -2,7 +2,7 @@
 GNU Grep， bashの動く環境(bush on ubuntu on Windows)  
 bush on ubuntu on Windows　だとすぐに動く．
 ```
-$ git clone https://github.com/SatoshiTanoue/AnalysisCommentsUsingGrep
+git clone https://github.com/SatoshiTanoue/AnalysisCommentsUsingGrep.git
 $ cd AnalysisCommentsUsingGrep
 ```
 # grepによる特定のコメントを検出
