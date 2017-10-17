@@ -24,7 +24,7 @@ for file in $1/*.cpp; do
     AnayazeComments $file > result/${fileName}.txt 
 done
 
-#cppファイル名に対して
+#hファイル名に対して実行
 for file in $1/*.h; do
     fileName=${file##*/}
     AnayazeComments $file > result/${fileName}.txt 
